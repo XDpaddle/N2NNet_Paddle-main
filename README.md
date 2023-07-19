@@ -7,7 +7,7 @@ In the last few years, image denoising has benefited a lot from the fast develop
 
 ## 2.复现精度
 
-采用单卡训练,在SIDD测试集的测试效果如下表,达到验收指标,PSNR: 34.39。
+SIDD添加高斯噪声
 
 | Network | opt   | iters  | learning rate | batch_size | dataset | GPUS | PSNR    |
 | ------- | ----- | ------ | ------------- | ---------- | ------- | ---- | ------- |
